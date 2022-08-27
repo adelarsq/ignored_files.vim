@@ -17,6 +17,8 @@
     let g:ignored_filetypes = [ "neo-tree", "FTerm", "FloatermBorder", "flutterToolsOutline", "lspinfo" ]
     let g:ignored_buffertypes = [ ]
 
+" Colors Plugins
+
 " norcalli/nvim-colorizer.lua
 "    require 'colorizer'.setup({
 "      " TODO
@@ -27,8 +29,9 @@
 "    }
 "    ...
 
-" lukas-reineke/indent-blankline.nvim
-    let g:indent_blankline_filetype_exclude = [
+" Indent Plugins
+
+    let g:ignored_filetypes_indent = [
         \ 'calendar',
         \ 'codi',
         \ 'dadbod',
@@ -43,12 +46,24 @@
         \ 'mason.nvim',
         \ 'matrix-screensaver',
         \ 'neo-tree',
+        \ 'nerdtree',
         \ 'terminal',
         \ 'txt',
         \ 'vim-plug',
         \ 'vista',
         \ 'sagarename',
         \ ]
-    let g:indent_blankline_buftype_exclude = ['terminal']
+    let g:ignored_buffertypes_indent = [
+        \ 'terminal'
+        \ ]
+
+" lukas-reineke/indent-blankline.nvim
+
+    let g:indent_blankline_filetype_exclude = g:ignored_filetypes_indent
+    let g:indent_blankline_buftype_exclude = g:ignored_buffertypes_indent
+    
+" nathanaelkane/vim-indent-guides
+
+    let g:indent_guides_exclude_filetypes = g:ignored_filetypes_indent
     
 
