@@ -16,6 +16,7 @@
 
     let g:ignored_filetypes = [ "neo-tree", "FTerm", "FloatermBorder", "flutterToolsOutline", "lspinfo" ]
     let g:ignored_buffertypes = [ ]
+    let g:ignored_buffernames = [ ]
 
 " Colors Plugins
 
@@ -56,6 +57,7 @@
     let g:ignored_buffertypes_indent = [
         \ 'terminal'
         \ ]
+    let g:ignored_buffernames_indent = []
 
 " lukas-reineke/indent-blankline.nvim
 
@@ -66,4 +68,8 @@
 
     let g:indent_guides_exclude_filetypes = g:ignored_filetypes_indent
     
+" Yggdroot/indentLine    
 
+    let g:g:indentLine_fileTypeExclude = g:ignored_filetypes_indent
+    let g:indentLine_bufTypeExclude = g:ignored_buffertypes_indent    
+    let g:indentLine_bufNameExclude = g:ignored_buffernames_indent
