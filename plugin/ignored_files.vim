@@ -70,6 +70,6 @@
     
 " Yggdroot/indentLine    
 
-    let g:g:indentLine_fileTypeExclude = g:ignored_filetypes_indent
+    let g:indentLine_fileTypeExclude = g:ignored_filetypes_indent
     let g:indentLine_bufTypeExclude = g:ignored_buffertypes_indent    
     let g:indentLine_bufNameExclude = g:ignored_buffernames_indent
