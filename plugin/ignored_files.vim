@@ -14,7 +14,8 @@
 
 " Common ignored files
 
-    let g:ignored_files = [ "neo-tree", "FTerm", "FloatermBorder", "flutterToolsOutline", "lspinfo" ]
+    let g:ignored_filetypes = [ "neo-tree", "FTerm", "FloatermBorder", "flutterToolsOutline", "lspinfo" ]
+    let g:ignored_buffertypes = [ ]
 
 " norcalli/nvim-colorizer.lua
 "    require 'colorizer'.setup({
