@@ -30,6 +30,10 @@ Plug 'https://github.com/adelarsq/ignored_files.vim'
 - [x] [https://github.com/nathanaelkane/vim-indent-guides](nathanaelkane/vim-indent-guides)
 - [x] [Yggdroot/indentLine](https://github.com/Yggdroot/indentLine)
 
+### Zen Plugins
+
+- [x] [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
+
 ## TODO
 
 - [x] Ready to use [WIP]
