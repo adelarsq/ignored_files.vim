@@ -74,7 +74,7 @@
     let g:indentLine_bufTypeExclude = g:ignored_buffertypes_indent    
     let g:indentLine_bufNameExclude = g:ignored_buffernames_indent
     
-# Zen
+" Zen
 
 " RRethy/vim-illuminate
 
