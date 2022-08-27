@@ -32,7 +32,7 @@ Plug 'https://github.com/adelarsq/ignored_files.vim'
 
 ### Zen Plugins
 
-- [x] [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
+- [ ] [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate)
 
 ## TODO
 
