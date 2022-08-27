@@ -12,6 +12,9 @@
     endif
     set wildignore+=*.so,*.swp,*.zip,*.exe,*.class,*.jar,*.dll
 
+" Common ignored files
+
+    let g:ignored_files = [ "neo-tree", "FTerm", "FloatermBorder", "flutterToolsOutline", "lspinfo" ]
 
 " norcalli/nvim-colorizer.lua
 "    require 'colorizer'.setup({
@@ -46,4 +49,5 @@
         \ 'sagarename',
         \ ]
     let g:indent_blankline_buftype_exclude = ['terminal']
+    
 
