@@ -24,6 +24,7 @@ Plug 'https://github.com/adelarsq/ignored_files.vim'
 ## Supported Plugins
 
 - [x] [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [x] [https://github.com/nathanaelkane/vim-indent-guides](nathanaelkane/vim-indent-guides)
 
 ## TODO
 
