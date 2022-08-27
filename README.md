@@ -14,8 +14,9 @@ Plug 'https://github.com/adelarsq/ignored_files.vim'
 
 ## Config
 
-- `ignored_filetypes` global variable can be used on plugins that you want to file for specific filetypes.
-- `ignored_buffertypes` global variable can be used on plugins that you want to file for specific buffer types.
+- `ignored_filetypes` global variable can be used on plugins that you want to ignore for specific filetypes.
+- `ignored_buffertypes` global variable can be used on plugins that you want to ignore for specific buffer types.
+- `ignored_buffernames` global variable can be used on plugins that you want to ignore for specific buffer names.
 
 ## Supported Configs
 
