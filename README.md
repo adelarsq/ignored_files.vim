@@ -1,4 +1,4 @@
-# Ignored Files [WIP]
+# Ignored Files
 
 A plugin to ignore filetypes and buffers for a number of plugins.
 
@@ -31,7 +31,7 @@ Plug 'https://github.com/adelarsq/ignored_files.vim'
 
 ## TODO
 
-- [ ] Ready to use
+- [x] Ready to use [WIP]
 - [ ] Generated .gitignore based on current filetype
 - [ ] Update .gitignore based on current filetype
 - [ ] Generate wildignore based on .gitignore
