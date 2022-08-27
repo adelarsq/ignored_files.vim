@@ -6,7 +6,7 @@ This allows to avoid a need to add ignore configs for a lot of plugins on your c
 
 ## Installing
 
-With Plug add this in your config:
+[Plug](https://github.com/junegunn/vim-plug):
 
 ```vim
 Plug 'https://github.com/adelarsq/ignored_files.vim'
