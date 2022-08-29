@@ -53,6 +53,7 @@
         \ 'vim-plug',
         \ 'vista',
         \ 'sagarename',
+        \ 'flutter_tools_popup',
         \ ]
     let g:ignored_buffertypes_indent = [
         \ 'terminal'
