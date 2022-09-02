@@ -24,6 +24,7 @@
 "    require 'colorizer'.setup({
 "      " TODO
 "      '!mason';
+"      '!neo-tree';
 "      '!FTerm';
 "      '!vim-plug';
 "      '!mason.nvim';
