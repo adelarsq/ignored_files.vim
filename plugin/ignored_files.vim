@@ -55,6 +55,12 @@
         \ 'vista',
         \ 'sagarename',
         \ 'flutter_tools_popup',
+        \ 'dapui_watches',
+        \ 'dapui_stacks',
+        \ 'dapui_breakpoints',
+        \ 'dapui_scopes',
+        \ 'dap-repl',
+        \ 'dapui_console'
         \ ]
     let g:ignored_buffertypes_indent = [
         \ 'terminal'
