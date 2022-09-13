@@ -60,7 +60,8 @@
         \ 'dapui_breakpoints',
         \ 'dapui_scopes',
         \ 'dap-repl',
-        \ 'dapui_console'
+        \ 'dapui_console',
+        \ 'peek'
         \ ]
     let g:ignored_buffertypes_indent = [
         \ 'terminal'
