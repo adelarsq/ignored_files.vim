@@ -62,7 +62,8 @@
         \ 'dapui_scopes',
         \ 'dap-repl',
         \ 'dapui_console',
-        \ 'peek'
+        \ 'peek',
+        \ 'ccc-ui'
         \ ]
     let g:ignored_buffertypes_indent = [
         \ 'terminal'
