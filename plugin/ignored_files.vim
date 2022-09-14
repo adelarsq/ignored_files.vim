@@ -49,6 +49,7 @@
         \ 'matrix-screensaver',
         \ 'neo-tree',
         \ 'nerdtree',
+        \ 'NvimTree',
         \ 'terminal',
         \ 'txt',
         \ 'vim-plug',
