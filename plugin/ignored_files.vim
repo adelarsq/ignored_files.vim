@@ -14,7 +14,13 @@
 
 " Common ignored files
 
-    let g:ignored_filetypes = [ "neo-tree", "FTerm", "FloatermBorder", "flutterToolsOutline", "lspinfo" ]
+    let g:ignored_filetypes = [
+        \ "FTerm",
+        \ "FloatermBorder",
+        \ "flutterToolsOutline",
+        \ "lspinfo",
+        \ "neo-tree",
+        \ ]
     let g:ignored_buffertypes = [ ]
     let g:ignored_buffernames = [ ]
 
@@ -34,13 +40,22 @@
 " Indent Plugins
 
     let g:ignored_filetypes_indent = [
+        \ 'FTerm',
+        \ 'NvimTree',
         \ 'calendar',
+        \ 'ccc-ui',
         \ 'codi',
         \ 'dadbod',
+        \ 'dap-repl',
+        \ 'dapui_breakpoints',
+        \ 'dapui_console',
+        \ 'dapui_scopes',
+        \ 'dapui_stacks',
+        \ 'dapui_watches',
         \ 'dashboard',
         \ 'dbout',
         \ 'dbui',
-        \ 'FTerm',
+        \ 'flutter_tools_popup',
         \ 'git',
         \ 'help',
         \ 'markdown',
@@ -49,21 +64,13 @@
         \ 'matrix-screensaver',
         \ 'neo-tree',
         \ 'nerdtree',
-        \ 'NvimTree',
+        \ 'noice',
+        \ 'peek',
+        \ 'sagarename',
         \ 'terminal',
         \ 'txt',
         \ 'vim-plug',
-        \ 'vista',
-        \ 'sagarename',
-        \ 'flutter_tools_popup',
-        \ 'dapui_watches',
-        \ 'dapui_stacks',
-        \ 'dapui_breakpoints',
-        \ 'dapui_scopes',
-        \ 'dap-repl',
-        \ 'dapui_console',
-        \ 'peek',
-        \ 'ccc-ui'
+        \ 'vista'
         \ ]
     let g:ignored_buffertypes_indent = [
         \ 'terminal'
