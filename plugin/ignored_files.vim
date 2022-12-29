@@ -58,6 +58,7 @@
         \ 'flutter_tools_popup',
         \ 'git',
         \ 'help',
+        \ 'lazy',
         \ 'markdown',
         \ 'mason',
         \ 'mason.nvim',
