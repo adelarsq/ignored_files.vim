@@ -77,7 +77,9 @@
     let g:ignored_buffertypes_indent = [
         \ 'terminal'
         \ ]
-    let g:ignored_buffernames_indent = []
+    let g:ignored_buffernames_indent = [
+        \ 'Veil'
+        \ ]
 
 " lukas-reineke/indent-blankline.nvim
 
