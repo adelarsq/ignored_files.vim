@@ -68,6 +68,7 @@
         \ 'noice',
         \ 'peek',
         \ 'sagarename',
+        \ 'starter',
         \ 'terminal',
         \ 'txt',
         \ 'vim-plug',
